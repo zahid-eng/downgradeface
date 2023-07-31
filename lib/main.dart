@@ -1,5 +1,5 @@
 import 'package:camera/camera.dart';
-import 'package:downgradeface/Utils/splashScreen.dart';
+
 import 'package:downgradeface/homepage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashScreenPage(),
+      home: FaceDetectorView(),
     );
   }
 }
